@@ -20,4 +20,11 @@ circles <- st_read("circles.shp")
 blocks <- st_read("blocks_example.shp")
 
 circles_blocks <- st_intersects(circles, blocks)
+head(circles_blocks)
+length(circles_blocks)
+circles_blocks
+
+sessionInfo()
+sf::sf_extSoftVersion()
+
 
